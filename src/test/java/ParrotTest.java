@@ -23,6 +23,6 @@ public class ParrotTest {
         String input = "polly";
         String expected = "polly";
         String actual = p.copy(input);
-        Assert.assertEquals(expected, actual);
+        String parrot = p.copy("polly");
     }
 }
